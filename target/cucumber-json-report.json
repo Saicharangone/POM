@@ -1,0 +1,119 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-20T05:03:21.869Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 103\nCurrent browser version is 105.0.5195.127 with binary path C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LIN66014372\u0027, ip: \u0027192.168.29.160\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x006F5FD3+2187219]\n\tOrdinal0 [0x0068E6D1+1763025]\n\tOrdinal0 [0x005A3E78+802424]\n\tOrdinal0 [0x005C51F9+938489]\n\tOrdinal0 [0x005C0DDC+921052]\n\tOrdinal0 [0x005BE691+910993]\n\tOrdinal0 [0x005F17F0+1120240]\n\tOrdinal0 [0x005F144A+1119306]\n\tOrdinal0 [0x005EC9A6+1100198]\n\tOrdinal0 [0x005C6F80+946048]\n\tOrdinal0 [0x005C7E76+949878]\n\tGetHandleVerifier [0x009990C2+2721218]\n\tGetHandleVerifier [0x0098AAF0+2662384]\n\tGetHandleVerifier [0x0078137A+526458]\n\tGetHandleVerifier [0x00780416+522518]\n\tOrdinal0 [0x00694EAB+1789611]\n\tOrdinal0 [0x006997A8+1808296]\n\tOrdinal0 [0x00699895+1808533]\n\tOrdinal0 [0x006A26C1+1844929]\n\tBaseThreadInitThunk [0x7574FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76EF7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76EF7A6E+238]\n\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\r\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat com.Pages.Base.GetdriverInit(Base.java:15)\r\n\tat com.steps.Basestep.baseinit(Basestep.java:13)\r\n",
+              "duration": 2262922800,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.steps.Basestep.baseinit()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify that you are in Home Tab",
+        "description": "",
+        "id": "to-get-the-screen-of-home-tab;verify-that-you-are-in-home-tab",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 997500,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Click on Home page",
+            "match": {
+              "location": "com.steps.Home.click_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Enter email and password",
+            "match": {
+              "location": "com.steps.Home.enter_email_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Click on Gallery",
+            "match": {
+              "location": "com.steps.Gallery.click_on_gallery()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Click the button",
+            "match": {
+              "location": "com.steps.Gallery.click_the_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Click on About",
+            "match": {
+              "location": "com.steps.About.click_on_about()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Click on contact",
+            "match": {
+              "location": "com.steps.Contacts.click_on_contact()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Quit the browser",
+            "match": {
+              "location": "com.steps.Home.quit()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To get the Screen of Home Tab",
+    "description": "",
+    "id": "to-get-the-screen-of-home-tab",
+    "keyword": "Feature",
+    "uri": "file:Features/Home.feature",
+    "tags": []
+  }
+]

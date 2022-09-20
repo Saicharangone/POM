@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multi tab card|| Learning robo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="tabs">
+<div class="tab">
+  <button class="tablinks active" onclick="openCity(event, 'Home')" >Home</button>
+  <button class="tablinks" onclick="openCity(event, 'Gallery')">Gallery</button>
+  <button class="tablinks" onclick="openCity(event, 'About')">About</button>
+  <button class="tablinks" onclick="openCity(event, 'Contact')">Contact</button>
+</div>
+
+<div id="Home" class="tabcontent" style="display:block">
+  <h3>HOME</h3>
+  <p>Home content....</p>
+	<form> 
+<table> <tr> <td> Email Address: </td> <td> <input class ="email" type=”text” email=””> </td> </tr> <tr> <td> Password: </td> <td> <input class ="passw" type=”Password” name=””> </td> </tr> </table> 
+</form>
+</div>
+
+<div id="Gallery" class="tabcontent">
+    <h3>GALLERY</h3>
+    <p>Gallery content....</p>
+
+<button type="button" onclick="alert('You pressed the button!')">Click me!</button>
+
+  </div>
+
+<div id="About" class="tabcontent">
+  <h3>ABOUT</h3>
+  <p>About content....</p> 
+  <table> <tr> <td>About text: </td> <td> <input type=”text” email=””> </td> </tr> <tr> <td> contact: </td> <td> <input type=”text” name=””> </td> </tr> </table> 
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>CONTACT</h3>
+  <p>Contact content....</p>
+  <table> <tr> <td> contact: </td> <td> <input type=”text” name=””> </td> </tr> </table>
+</div>
+</div>
+<div class="credit">Made with <span style="color:tomato">❤</span> by <a href="https://www.learningrobo.com/">Learning Robo</a></div>
+<script src="script.js"></script>
+   
+</body>
+</html> 
